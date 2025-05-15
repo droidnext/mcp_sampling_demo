@@ -1,4 +1,4 @@
-# Model Context Protocol (MCP) Sampling Demo
+# Model Context Protocol (MCP) Sampling Demo 
 
 This project demonstrates the use of MCP sampling with FastAPI and OpenAI.
 
