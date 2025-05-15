@@ -28,4 +28,4 @@ uv run news_agent_client.py
 
 ## Additional Information
 
-Ensure all environment variables are set correctly in the `.env` file before running the server or client.
+Ensure all environment variables are set correctly in the `.env` file before running the server or client. Refer to the `.env_local` file for an example.
