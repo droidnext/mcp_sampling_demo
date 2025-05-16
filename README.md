@@ -1,6 +1,35 @@
-# Model Context Protocol (MCP) Sampling Demo 
+# Model Context Protocol (MCP) Sampling Demo
 
-This project demonstrates the use of MCP sampling with FastAPI and OpenAI.
+This project demonstrates the use of MCP sampling with FastAPI and OpenAI for news aggregation and bias removal.
+
+## Use Case: News Aggregation and Bias Removal
+
+This code example shows how to use MCP tools to:
+1. Collect news articles
+2. Make MCP sampling callbacks to remove bias
+3. Return neutral news summaries
+
+## Example Flow
+
+### 1. Server Tool Input
+```json
+{
+    "title": "Disaster Looms as Incompetent Leaders Fumble Climate Policy",
+    "source": "HotTake News",
+    "url": "https://hottakenews.com/climate-crisis",
+    "content": "In yet another display of utter negligence, world leaders failed to reach a consensus on climate action, dooming future generations to a planet in crisis."
+}
+```
+
+### 2. MCP Sampling Callback Output
+```json
+{
+    "title": "World Leaders Struggle to Reach Consensus on Climate Action",
+    "source": "HotTake News",
+    "url": "https://hottakenews.com/climate-crisis",
+    "content": "World leaders faced challenges in reaching a consensus on climate policy during recent discussions, raising concerns about the potential impact on future generations regarding environmental issues."
+}
+```
 
 ## Setup Instructions
 
