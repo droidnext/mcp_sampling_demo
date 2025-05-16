@@ -5,13 +5,13 @@ This project demonstrates the use of MCP sampling with FastAPI and OpenAI for ne
 ## Use Case: News Aggregation and Bias Removal
 
 This code example shows how to use MCP tools to:
-1. Collect news articles
-2. Make MCP sampling callbacks to remove bias
+1. Server ToolCollect news articles
+2. Make MCP sampling callbacks to client remove bias
 3. Return neutral news summaries
 
 ## Example Flow
 
-### 1. Server Tool Input
+### 1. New Articls fetched by Server Tool 
 ```json
 {
     "title": "Disaster Looms as Incompetent Leaders Fumble Climate Policy",
@@ -21,7 +21,7 @@ This code example shows how to use MCP tools to:
 }
 ```
 
-### 2. MCP Sampling Callback Output
+### 2. After MCP Sampling Callback Output
 ```json
 {
     "title": "World Leaders Struggle to Reach Consensus on Climate Action",
