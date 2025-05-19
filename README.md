@@ -1,17 +1,17 @@
-# Model Context Protocol (MCP) Sampling Demo
+# 🚀 Model Context Protocol (MCP) Sampling Demo
 
 This project demonstrates the use of MCP sampling with FastAPI and OpenAI for news aggregation and bias removal.
 
-## Use Case: News Aggregation and Bias Removal
+## 📋 Use Case: News Aggregation and Bias Removal
 
 This code example shows how to use MCP tools to:
-1. Server ToolCollect news articles
-2. Make MCP sampling callbacks to client remove bias
+1. Collect news articles
+2. Make MCP sampling callbacks to remove bias
 3. Return neutral news summaries
 
-## Example Flow
+## 🔄 Example Flow
 
-### 1. New Articls fetched by Server Tool 
+### 📥 1. Server Tool Input
 ```json
 {
     "title": "Disaster Looms as Incompetent Leaders Fumble Climate Policy",
@@ -21,7 +21,7 @@ This code example shows how to use MCP tools to:
 }
 ```
 
-### 2. After MCP Sampling Callback Output
+### 📤 2. MCP Sampling Callback Output
 ```json
 {
     "title": "World Leaders Struggle to Reach Consensus on Climate Action",
@@ -31,7 +31,7 @@ This code example shows how to use MCP tools to:
 }
 ```
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 1. **Initialize the environment**
    ```bash
@@ -41,20 +41,20 @@ This code example shows how to use MCP tools to:
    uv pip install fastapi uvicorn openai fastmcp
    ```
 
-## Running the Server
+## 🖥️ Running the Server
 
 To start the server, run:
 ```bash
 uv run news_aggregate_server.py
 ```
 
-## Running the Client
+## 💻 Running the Client
 
 To start the client, run:
 ```bash
 uv run news_agent_client.py
 ```
 
-## Additional Information
+## ℹ️ Additional Information
 
 Ensure all environment variables are set correctly in the `.env` file before running the server or client. Refer to the `.env_local` file for an example.
