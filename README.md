@@ -2,6 +2,10 @@
 
 This project demonstrates the use of MCP sampling with FastAPI and OpenAI for news aggregation and bias removal.
 
+## 📚 Resources
+- [MCP Sampling Documentation](https://modelcontextprotocol.io/docs/concepts/sampling)
+- [MCP Sampling Article](https://medium.com/@droidnext/model-context-protocol-mcp-sampling-e966524db565)
+
 ## 📋 Use Case: News Aggregation and Bias Removal
 
 This code example shows how to use MCP tools to:
