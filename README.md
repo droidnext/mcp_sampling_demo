@@ -4,7 +4,9 @@ This project demonstrates the use of MCP sampling with FastAPI and OpenAI for ne
 
 ## 📚 Resources
 - [MCP Sampling Documentation](https://modelcontextprotocol.io/docs/concepts/sampling)
+  - Full URL: https://modelcontextprotocol.io/docs/concepts/sampling
 - [MCP Sampling Article](https://medium.com/@droidnext/model-context-protocol-mcp-sampling-e966524db565)
+  - Full URL: https://medium.com/@droidnext/model-context-protocol-mcp-sampling-e966524db565
 
 ## 📋 Use Case: News Aggregation and Bias Removal
 
